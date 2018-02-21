@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0A1376203CC4770054D8CC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0A1375203CC4770054D8CC /* LoginViewController.swift */; };
 		1E0ACB9C203B70C500C8F491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0ACB9B203B70C500C8F491 /* AppDelegate.swift */; };
-		1E0ACB9E203B70C500C8F491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0ACB9D203B70C500C8F491 /* ViewController.swift */; };
 		1E0ACBA1203B70C500C8F491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0ACB9F203B70C500C8F491 /* Main.storyboard */; };
-		1E0ACBA3203B70C500C8F491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E0ACBA2203B70C500C8F491 /* Assets.xcassets */; };
 		1E0ACBA6203B70C500C8F491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0ACBA4203B70C500C8F491 /* LaunchScreen.storyboard */; };
+		1E69B9EC203C00C6002890B8 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E69B9EB203C00C6002890B8 /* FeedViewController.swift */; };
+		1E69B9F3203C02EB002890B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E69B9F2203C02EB002890B8 /* GoogleService-Info.plist */; };
+		1E69B9F5203C03C2002890B8 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E69B9F4203C03C2002890B8 /* PostTableViewCell.swift */; };
+		1E69B9F7203C04B2002890B8 /* AudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E69B9F6203C04B2002890B8 /* AudioModel.swift */; };
+		1EBA4A76203CFC7200341A7F /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EBA4A75203CFC7200341A7F /* Media.xcassets */; };
+		22FDE0A1A9CC58AEF442BA4C /* Pods_quickFix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B76004B055DD25D5D5F3121 /* Pods_quickFix.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B76004B055DD25D5D5F3121 /* Pods_quickFix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quickFix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0A1375203CC4770054D8CC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1E0ACB98203B70C500C8F491 /* quickFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quickFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0ACB9B203B70C500C8F491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E0ACB9D203B70C500C8F491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1E0ACBA0203B70C500C8F491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1E0ACBA2203B70C500C8F491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E0ACBA5203B70C500C8F491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E0ACBA7203B70C500C8F491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E69B9EB203C00C6002890B8 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		1E69B9F2203C02EB002890B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E69B9F4203C03C2002890B8 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		1E69B9F6203C04B2002890B8 /* AudioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioModel.swift; sourceTree = "<group>"; };
+		1EBA4A75203CFC7200341A7F /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		6C4530E7E14E94A382A35A67 /* Pods-quickFix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quickFix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-quickFix/Pods-quickFix.debug.xcconfig"; sourceTree = "<group>"; };
+		F3FBAC36D92F6DFD2C00F863 /* Pods-quickFix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quickFix.release.xcconfig"; path = "Pods/Target Support Files/Pods-quickFix/Pods-quickFix.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22FDE0A1A9CC58AEF442BA4C /* Pods_quickFix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				1E0ACB9A203B70C500C8F491 /* quickFix */,
 				1E0ACB99203B70C500C8F491 /* Products */,
+				886A1E24CAF2D748DDC9DF07 /* Pods */,
+				6A0CCE12EF1BCCC027793F6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +70,34 @@
 			isa = PBXGroup;
 			children = (
 				1E0ACB9B203B70C500C8F491 /* AppDelegate.swift */,
-				1E0ACB9D203B70C500C8F491 /* ViewController.swift */,
 				1E0ACB9F203B70C500C8F491 /* Main.storyboard */,
-				1E0ACBA2203B70C500C8F491 /* Assets.xcassets */,
+				1E69B9F4203C03C2002890B8 /* PostTableViewCell.swift */,
 				1E0ACBA4203B70C500C8F491 /* LaunchScreen.storyboard */,
+				1E0A1375203CC4770054D8CC /* LoginViewController.swift */,
+				1E69B9F6203C04B2002890B8 /* AudioModel.swift */,
+				1EBA4A75203CFC7200341A7F /* Media.xcassets */,
+				1E69B9EB203C00C6002890B8 /* FeedViewController.swift */,
 				1E0ACBA7203B70C500C8F491 /* Info.plist */,
+				1E69B9F2203C02EB002890B8 /* GoogleService-Info.plist */,
 			);
 			path = quickFix;
+			sourceTree = "<group>";
+		};
+		6A0CCE12EF1BCCC027793F6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B76004B055DD25D5D5F3121 /* Pods_quickFix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		886A1E24CAF2D748DDC9DF07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C4530E7E14E94A382A35A67 /* Pods-quickFix.debug.xcconfig */,
+				F3FBAC36D92F6DFD2C00F863 /* Pods-quickFix.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E0ACBAA203B70C500C8F491 /* Build configuration list for PBXNativeTarget "quickFix" */;
 			buildPhases = (
+				9ED1F749F49CCF78F3BB5458 /* [CP] Check Pods Manifest.lock */,
 				1E0ACB94203B70C500C8F491 /* Sources */,
 				1E0ACB95203B70C500C8F491 /* Frameworks */,
 				1E0ACB96203B70C500C8F491 /* Resources */,
+				2474B909530958B2BF60E973 /* [CP] Embed Pods Frameworks */,
+				0665AB83D69BE672BE619169 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,20 +163,87 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E0ACBA6203B70C500C8F491 /* LaunchScreen.storyboard in Resources */,
-				1E0ACBA3203B70C500C8F491 /* Assets.xcassets in Resources */,
+				1E69B9F3203C02EB002890B8 /* GoogleService-Info.plist in Resources */,
+				1EBA4A76203CFC7200341A7F /* Media.xcassets in Resources */,
 				1E0ACBA1203B70C500C8F491 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0665AB83D69BE672BE619169 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-quickFix/Pods-quickFix-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-quickFix/Pods-quickFix-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2474B909530958B2BF60E973 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-quickFix/Pods-quickFix-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-quickFix/Pods-quickFix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ED1F749F49CCF78F3BB5458 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quickFix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E0ACB94203B70C500C8F491 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E0ACB9E203B70C500C8F491 /* ViewController.swift in Sources */,
+				1E69B9EC203C00C6002890B8 /* FeedViewController.swift in Sources */,
 				1E0ACB9C203B70C500C8F491 /* AppDelegate.swift in Sources */,
+				1E69B9F5203C03C2002890B8 /* PostTableViewCell.swift in Sources */,
+				1E0A1376203CC4770054D8CC /* LoginViewController.swift in Sources */,
+				1E69B9F7203C04B2002890B8 /* AudioModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +378,14 @@
 		};
 		1E0ACBAB203B70C500C8F491 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C4530E7E14E94A382A35A67 /* Pods-quickFix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DY98KN5R7D;
 				INFOPLIST_FILE = quickFix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = HarveyMuddCollege.quickFix;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quickFix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,13 +394,14 @@
 		};
 		1E0ACBAC203B70C500C8F491 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3FBAC36D92F6DFD2C00F863 /* Pods-quickFix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DY98KN5R7D;
 				INFOPLIST_FILE = quickFix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = HarveyMuddCollege.quickFix;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quickFix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

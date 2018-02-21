@@ -2,11 +2,12 @@
 //  AppDelegate.swift
 //  quickFix
 //
-//  Created by Michael Hamlett on 2/19/18.
-//  Copyright © 2018 Michael Hamlett. All rights reserved.
-//
+//  Created by Michael Hamlett, Akshay Trikha, Pratyush Kapur on 10/28/17.
+//  Copyright © 2017 Michael Hamlett, Akshay Trikha, Pratyush Kapur, Shiv Seetharaman, Maxwell Maleno. All rights reserved.
+
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FIRApp.configure()
         return true
     }
 
